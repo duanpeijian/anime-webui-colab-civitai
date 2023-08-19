@@ -224,4 +224,4 @@ Automatically downloads when selecting ControlNet models
 [waifa]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifuanything.ipynb
 [waifd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
 
-[own-model]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/provide_your_own_models.ipynb
+[own-model]: https://colab.research.google.com/github/duanpeijian/anime-webui-colab-civitai/blob/main/notebooks/provide_your_own_models.ipynb

@@ -172,6 +172,7 @@ def extensions_list(option,webui_version='stable',controlnet='none', only_contro
       f'-b {ext_version["cutoff"][ext_tag]} https://github.com/anime-webui-colab/ext-cutoff {f}/cutoff',
       f'-b {ext_version["dynamic-thresholding"][ext_tag]} https://github.com/anime-webui-colab/ext-dynamic-thresholding {f}/dynamic-thresholding',
       f'-b {ext_version["tiled-multidiffusion-upscaler"][ext_tag]} https://github.com/anime-webui-colab/ext-multidiffusion-upscaler {f}/tiled-multidiffusion-upscaler',
+      f'https://github.com/civitai/sd_civitai_extension {f}/sd_civitai_extension',
     ],
     'latest': [
       # using my own fork again to not lose my presets
