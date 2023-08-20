@@ -304,7 +304,7 @@ def patch_list():
 
 def civitai_model_list():
     models = [
-        'https://civitai.com/api/download/models/90854' //万象熔炉 | Anything V5/Ink
+        'https://civitai.com/api/download/models/90854', #万象熔炉 | Anything V5/Ink
     ]
     
     return models
@@ -312,11 +312,11 @@ def civitai_model_list():
 def lora_list():
     lora_models = {
         "civitai" : [
-            'https://civitai.com/api/download/models/82526', //GameIconResearch_chest_Lora
-            'https://civitai.com/api/download/models/135028', //Gameiconresearch_bottle3
-            'https://civitai.com/api/download/models/141632', //game icon institute_Qjianzhu_1
-            'https://civitai.com/api/download/models/135003', //Game Icon Institute_Qbuilds
-            'https://civitai.com/api/download/models/133391' //game_icon_Aquarius
+            'https://civitai.com/api/download/models/82526', #GameIconResearch_chest_Lora
+            'https://civitai.com/api/download/models/135028', #Gameiconresearch_bottle3
+            'https://civitai.com/api/download/models/141632', #game icon institute_Qjianzhu_1
+            'https://civitai.com/api/download/models/135003', #Game Icon Institute_Qbuilds
+            'https://civitai.com/api/download/models/133391', #game_icon_Aquarius
         ]
     }
     
