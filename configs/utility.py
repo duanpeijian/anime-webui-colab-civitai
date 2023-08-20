@@ -304,7 +304,7 @@ def patch_list():
 
 def civitai_model_list():
     models = [
-        'https://civitai.com/api/download/models/90854', #万象熔炉 | Anything V5/Ink
+        'https://civitai.com/api/download/models/30163', #anything-v5-PrtRE
     ]
     
     return models
