@@ -25,6 +25,7 @@ embeddings_folder = f'{web_ui_folder}/embeddings'
 extensions_folder = f'{web_ui_folder}/extensions'
 controlnet_folder = f'{extensions_folder}/controlnet'
 controlnet_models_folder = f'{controlnet_folder}/models'
+lora_models_folder = f'{web_ui_folder}/models/Lora'
 
 # variables for PYOM and UWUColab
 model_download_folder = '/content/models'
@@ -300,6 +301,15 @@ def patch_list():
   ]
 
   return p_list + extra_patches
+
+def lora_list():
+    lora_models = {
+        "civitai" : [
+            'https://civitai.com/api/download/models/82526'
+        ]
+    }
+    
+    return lora_models['civitai']
 
 def controlnet_list(option,webui_version='stable',extensions_version='stable'):
   global controlnet_installed
